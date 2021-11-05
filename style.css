@@ -147,17 +147,19 @@
     width: 25px;
     height: 25px;
     outline: solid 1px;
-    border-radius: 10px;
+    border-radius: 18px;
 }
 .icons {
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin-bottom: 12px;
 }
 
 .social-icons {
     display: flex;
     margin-bottom: 5px;
+    margin-left: 85px;
 }
 
 .social-icons {
@@ -169,24 +171,27 @@
     display: flex;
 }
 
-.store-icons {
-    display: flex;
+.stores {
+    margin-right: 85px;
 }
 
-.store-icons li {
-    margin-left: 255px;
+.play-store, .apple-store {
+    width: 150px;
+    height: 55px;
+    background-image: url('./images/google-play-store-icon-download-8.jpg');
+    background-size: cover;
+    background-position: center;
+    border: none;
 }
 
 .apple-store {
-    width: 250px;
-    height: 100px;
     background-image: url('./images/25-253876_app-store-and-google-play-with-your-own.png');
     background-size: cover;
+
 }
 
-.play-store {
-    width: 250px;
-    height: 100px;
+.trial button {
+    padding: 35px 85px;
     background-image: url('./images/google-play-store-icon-download-8.jpg');
     background-size: cover;
 }
@@ -199,10 +204,16 @@
 }
 
 .copyright li {
-    margin-right: 50px;
+    margin-right: 25px;
 }
 
 .copyright a {
     text-decoration: none;
     color: black;
+}
+
+.copyright img {
+    top: 7px;
+    position: relative;
+    width: 20px;
 }
