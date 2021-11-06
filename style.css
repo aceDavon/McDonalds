@@ -94,6 +94,7 @@
     background-color:rgb(255,188,13);
     border: none;
     border-radius: 5px;
+
     margin-top: 55px;
     margin-bottom: 25px;
 }
@@ -103,7 +104,56 @@
     margin: 3.5% 4.5% 4.5%  6.5%;
     display: flex;
     margin-left: 10%;
-    gap: 35px;
+    gap: 25px;
+}
+
+.deals-banner {
+    display: flex;
+    width: 100%;
+}
+
+.banner-text-below {
+    width: 45%;
+    margin-left: 55px;
+    margin-bottom: 30px;
+}
+
+.banner-text-below button, 
+.deals-banner-below-content button {
+    padding: 12px 35px;
+    color: white;
+    background-color:rgb(255,188,13);
+    border: none;
+    border-radius: 5px;
+    margin-top: 55px;
+    margin-bottom: 25px;
+}
+
+.banner-text-below h1 {
+    padding: 12px;
+}
+
+.banner-text-below p {
+    margin-bottom: 5px;
+}
+
+.deals-banner-below {
+    width: 100%;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.deals-banner-below img {
+    margin-left: 55px;
+    width: 95%;
+}
+
+.deals-banner-below-content {
+    margin-left: 55px;
+}
+
+.banner-text-below img, h1, p {
+    padding: 15px 0;
 }
 
 .banner-img {
